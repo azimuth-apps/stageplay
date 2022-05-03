@@ -1,4 +1,5 @@
-![StagePlay-logos_transparent](https://user-images.githubusercontent.com/9065229/166401719-15af7b26-f598-45cf-8942-c24f800673ce.png)
+![StagePlay-logos_transparent](https://user-images.githubusercontent.com/9065229/166401841-4d7a91f0-12b4-461f-b157-84e26f9f120c.png)
+
 
 StagePlay is an unofficial client app written for the Stages Bike SB20. It uses the two (currently unused) buttons on the SB20 to control actions within the application. Currently, as of May 2022, it has the following features:
 
