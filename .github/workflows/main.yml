@@ -3,6 +3,7 @@ name: Remove old artifacts
 on:
   release:
     types: [published]
+  workflow_dispatch:
 
 jobs:
   remove-old-artifacts:
