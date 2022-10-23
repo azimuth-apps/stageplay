@@ -11,7 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-    - name: Remove old artifacts
     - uses: dev-drprasad/delete-older-releases@v0.2.0
       with:
         keep_latest: 5
