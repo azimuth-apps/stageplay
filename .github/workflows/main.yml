@@ -1,6 +1,7 @@
 name: Remove old artifacts
 
 on:
+  push:
   release:
     types: [published]
   workflow_dispatch:
@@ -12,7 +13,8 @@ jobs:
 
     steps:
     - name: Remove old artifacts
-      uses: c-hive/gha-remove-artifacts@v1
+    - uses: dev-drprasad/delete-older-releases@v0.2.0
       with:
-        age: '1 month'
-        skip-recent: 5
+        keep_latest: 5
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
